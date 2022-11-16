@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Media Query
+    </title>
+    <style>
+        
+        header {
+            background: red;
+            padding: 20px;
+            text-align: center;
+        }
+
+        ul {
+            background: #333333;
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container {
+            display: flex;
+            background: #94C994;
+            padding: 0px 2px 2px 2px;
+            gap: 2px;
+        }
+
+        .item {
+            background: white;
+            padding: 10px;
+            display: none;
+            width: 100%;
+        }
+
+        .lifestyle {
+            display: block;
+        }
+
+        /* Tablet */
+        @media screen and (min-width: 600px) {
+            header {
+                background: blue;
+            }
+            .business {
+                display: block;
+            }
+        }
+
+        /* Laptop */
+        @media screen and (min-width: 992px) {
+            header {
+                background: orange;
+            }
+            .item {
+                display: block;
+            }
+        }
+
+        /* Desktop */
+        @media screen and (min-width: 1200px) {
+            header {
+                background: #90EE90;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <h1>Online Magazine</h1>
+    </header>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content -->
+    <section>
+        <div class="container">
+            <!-- Item 1 -->
+            <div class="item lifestyle">
+                <h2>Lifestyle</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, adipisci?</p>
+            </div>
+            <!-- Item 2 -->
+            <div class="item business">
+                <h2>Business</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, adipisci?</p>
+            </div>
+            <!-- Item 3 -->
+            <div class="item">
+                <h2>Sports</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, adipisci?</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

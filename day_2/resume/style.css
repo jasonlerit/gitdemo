@@ -1,0 +1,30 @@
+
+#personal-wrapper {
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#name {
+    font-size: 60px;
+}
+
+#info {
+    font-size: 20px;
+}
+
+.container {
+    padding: 10px 600px;
+}
+
+.container-heading {
+    border-bottom: 2px solid black;
+    font-size: 30px;
+}
+
+.skills-wrapper {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}

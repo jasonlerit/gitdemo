@@ -1,0 +1,77 @@
+/* Sample */
+
+body {
+    padding: 0 300px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+#left-side {
+    background: #2F3136;
+    width: 50%;
+}
+
+#right-side {
+    width: 100%;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    background: aqua;
+    border-radius: 100%;
+}
+
+#personal-info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#name {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#job-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#contact-details {
+    background: #277BC0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.details {
+    color: white;
+    padding: 20px;
+}
+
+.left-side-heading {
+    color: #277BC0;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+}
+
+.right-side-heading {
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+}
+
+.text-white {
+    color: white;
+}
